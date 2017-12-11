@@ -2,13 +2,11 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 <head>
   <meta charset = "utf-8" />
-  <title>Sign Up</title>
+  <title>Log In</title>
   <style type="text/css">
-form{
-border: 3px solid #f1f1f1;
-}
+
 input[type=text], input[type=password] {
-    width: 20%;
+    width: 40%;
     padding: 9px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -18,18 +16,20 @@ input[type=text], input[type=password] {
 
 body {
   font-family: "Open Sans";
-  font-size: 15px;
+  font-size: 16px;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
   line-height: 26.4px;
-  background-color: #f2f2f2;
+  background-color: #ACD1D1;
+  color:white;
 }
 
 /*signup button*/
 button {
-    color: black;
-    background-color: #FBE1E1;
+    font-family: "Open Sans";
+    color: white;
+    background-color: #ADA5A5;
     padding: 8px 13px;
     margin: 8px 0;
     border: 1px solid #ccc;
@@ -38,9 +38,9 @@ button {
     width: 20%;
 }
 
- /*PUSHEEN need it*/
+
 button:hover { 
-  background-color: white;
+  background-color: solid;
 }
 
  /*placeholder text size*/
@@ -76,25 +76,29 @@ input::-webkit-input-placeholder {
 
 
 </style>
+<a style="color:white"href="https://web.njit.edu/~mp473/yui/signup.php"><medium><p align="right">sign up</p></medium></span></a>
 <center>
-<h3>
-<b>Sign In</b>
-</h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2><b>hello there!</b></h2>
   <div class="container"> 
     <form class="form-horizontal" action="./db_add.php" method="POST" target="_blank">
        <div class="control-group">
-         <label class="control-label"  for="username">Email</label>
+         
             <div class="controls">
-    <input required="" type="text" placeholder="Email" name="firstname" required ><br>
+    <input required="" type="text" placeholder="Email" name="email" required ><br><span></span>
     
-    <input required="" type="password" placeholder="Password" name="lastname" required><br>
+    <input required="" type="password" placeholder="Password" name="password" required><br>
 
     <div class="clearfix">
 
-      <button type="submit" class="signupbutton" href=""><b>SIGN IN</b></button>
+      <button type="submit" class="signin" href=""><b>SIGN IN</b></button>
       <br>
-    <label><small>Don't have an account?</small></label>
-    <a class="b-blue-link" href="https://web.njit.edu/~maa222/project1/signup.php"><small>Create one!</small></span></a>
+    <a href="https://web.njit.edu/~mp473/yui/signup.php">
   <center>
   </div>
   </head>
